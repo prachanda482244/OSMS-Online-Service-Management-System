@@ -1,0 +1,95 @@
+@font-face {
+    font-family: ubuntu, sans-serifs;
+    src: url(../fonts/Ubuntu-Bold.ttf);
+}
+
+html,
+body {
+    font-family: ubuntu;
+}
+
+
+/* Change Brand name font */
+
+.navbar-brand {
+    font-family: ubuntu;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.custom-nav {
+    padding-left: 20px;
+}
+
+
+/* Change Navigation Color */
+
+.navbar #myMenu .custom-nav .nav-item a {
+    color: #fff;
+}
+
+.navbar #myMenu .custom-nav .nav-item a:hover {
+    color: #f0aab1;
+}
+
+
+/* make header image responsive */
+
+.back-image {
+    background-size: cover;
+    background-image: url(../images/banner1.jpg);
+    min-height: 90vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin-top: 4.5rem;
+}
+
+
+/* Margin for welcome to osms */
+
+.mainHeading {
+    margin: 1.5rem;
+    padding: 1rem;
+}
+
+
+/* Header image subtitle */
+
+.font-custom {
+    font-size: x-large;
+}
+
+
+/* Making the header responsive and make the content in the center */
+
+@media only screen and (max-width:600px) {
+    .mbl-version {
+        margin-top: 10rem;
+        text-align: center;
+    }
+}
+
+.card-body img {
+    border-radius: 50%;
+}
+
+.fi-color {
+    color: #dc3545;
+}
+
+.fi-color:hover {
+    color: #e994a2;
+}
+
+a {
+    color: #000;
+}
+
+.active {
+    color: #fff;
+    background-color: #dc3545;
+}
+
+a:hover {
+    color: #f26571;
+}
